@@ -15,6 +15,7 @@
 		EFEEF44924654CFE0059EB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEEF44724654CFE0059EB86 /* LaunchScreen.storyboard */; };
 		EFEEF45424654CFE0059EB86 /* PhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEF45324654CFE0059EB86 /* PhotoMasterTests.swift */; };
 		EFEEF45F24654CFE0059EB86 /* PhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEEF45E24654CFE0059EB86 /* PhotoMasterUITests.swift */; };
+		EFEEF48D2466E4590059EB86 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFEEF48C2466E4590059EB86 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EFEEF45A24654CFE0059EB86 /* PhotoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEEF45E24654CFE0059EB86 /* PhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITests.swift; sourceTree = "<group>"; };
 		EFEEF46024654CFE0059EB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEEF48C2466E4590059EB86 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EFEEF43B24654CFB0059EB86 /* PhotoMaster */ = {
 			isa = PBXGroup;
 			children = (
+				EFEEF48C2466E4590059EB86 /* icon.png */,
 				EFEEF43C24654CFB0059EB86 /* AppDelegate.swift */,
 				EFEEF43E24654CFB0059EB86 /* SceneDelegate.swift */,
 				EFEEF44024654CFB0059EB86 /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEEF48D2466E4590059EB86 /* icon.png in Resources */,
 				EFEEF44924654CFE0059EB86 /* LaunchScreen.storyboard in Resources */,
 				EFEEF44624654CFE0059EB86 /* Assets.xcassets in Resources */,
 				EFEEF44424654CFB0059EB86 /* Main.storyboard in Resources */,
@@ -366,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAY2YVU369;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
